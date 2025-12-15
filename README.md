@@ -26,9 +26,7 @@ Feel free to explore the site to learn more about my services, approach, tools, 
 - **Monitoring:** Prometheus, Grafana, ELK Stack, CloudWatch  
 
 ### Get in Touch
-
-- **Email:** [robdotsh@gmail.com](mailto:robdotsh@gmail.com)  
-- **LinkedIn:** [linkedin.com/in/rob-muze-903315198](https://www.linkedin.com/in/rob-muze-903315198)  
+- **LinkedIn:** [Profile](https://www.linkedin.com/in/rob-muze-903315198)  
 - **GitHub:** You're already here! 😄  
 
 Looking forward to discussing how I can support your team's DevOps needs.
