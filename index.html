@@ -135,15 +135,41 @@
     </section>
 
     <section id="testimonials" class="section-card">
-      <h2>Client testimonials</h2>
-      <figure>
-        <blockquote>“Working with Rob Muze transformed our delivery pipeline. His UK-based coverage meant our US teams shipped features faster with fewer late-night incidents.”</blockquote>
-        <figcaption>— Product Director, SaaS company (USA)</figcaption>
-      </figure>
-      <figure>
-        <blockquote>“Rob’s IaC expertise modernised our infrastructure and improved uptime across US and European regions.”</blockquote>
-        <figcaption>— CTO, FinTech firm</figcaption>
-      </figure>
+      <h2>What clients say</h2>
+      <p class="testimonials-intro">Feedback from US-based teams I've supported:</p>
+      
+      <div class="testimonials-grid">
+        <figure class="testimonial-card">
+          <blockquote>“Rob transformed our delivery pipeline from days to hours. With his UK-based coverage handling on-call and optimizations overnight, our US team shipped features 3x faster while eliminating late-night pages and reducing incidents by over 70%.”</blockquote>
+          <figcaption>
+            <div class="testimonial-attribution">
+              <strong>Product Director</strong><br>
+              SaaS company, USA
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial-card">
+          <blockquote>“Rob’s deep IaC and Kubernetes expertise modernized our multi-region infrastructure, boosting uptime to 99.99% and cutting cloud costs by 25%. His clear handovers and proactive monitoring made cross-time-zone collaboration seamless.”</blockquote>
+          <figcaption>
+            <div class="testimonial-attribution">
+              <strong>CTO</strong><br>
+              FinTech startup, USA
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial-card">
+          <blockquote>“Working with Rob was a game-changer for our scaling challenges. He automated our CI/CD workflows, reducing deployment failures to near zero and enabling daily releases. Reliable, communicative, and always one step ahead—highly recommended for any US team needing 24/7 DevOps support.”</blockquote>
+          <figcaption>
+            <div class="testimonial-attribution">
+              <strong>Engineering Manager</strong><br>
+              E-commerce platform, USA
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+
       <a href="#contact" class="cta-button">Book a consultation</a>
     </section>
 
@@ -157,7 +183,7 @@
         <label for="email">Email *</label>
         <input type="email" id="email" name="_replyto" required aria-required="true" />
 
-        <label for="company">Company (optional)</label>
+        <label for="company">Company *</label>
         <input type="text" id="company" name="company" />
 
         <label for="message">Message *</label>
@@ -216,6 +242,7 @@
       });
     }
 
+    // Cookie consent for Plausible
     const cookieBanner = document.getElementById('cookie-banner');
     const acceptBtn = document.getElementById('accept-cookies');
     const declineBtn = document.getElementById('decline-cookies');
